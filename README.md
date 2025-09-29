@@ -1,7 +1,7 @@
 <!-- Badges: Program, Institution, Domains, Objectives, Tech Stack, Trends -->
 <p align="center">
   <img alt="MLSD" src="https://img.shields.io/badge/Master-MLSD%2025--26-1E88E5?style=for-the-badge&logo=googlescholar&logoColor=white">
-  <img alt="University" src="https://img.shields.io/badge/Université Paris Cité%20University-6f42c1?style=for-the-badge&logo=academia&logoColor=white">
+  <img alt="University" src="https://img.shields.io/badge/Université Paris Cité%20-6f42c1?style=for-the-badge&logo=academia&logoColor=white">
   <img alt="Location" src="https://img.shields.io/badge/Location-Paris%20(Europe%2FParis)-FF7043?style=for-the-badge&logo=googlemaps&logoColor=white">
 </p>
 
