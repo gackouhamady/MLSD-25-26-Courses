@@ -228,4 +228,3 @@ GitHub Actions (Python) — https://docs.github.com/actions/automating-builds-an
 ├─ Big-Data-Analytics/
 └─ Packaging/
 ```
-- Keep concise **notes** and **resources** per module. Place notebooks and docker/compose files alongside each lab for easy reproduction.
