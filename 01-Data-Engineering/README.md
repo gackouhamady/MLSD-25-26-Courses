@@ -220,11 +220,7 @@ GitHub Actions (Python) — https://docs.github.com/actions/automating-builds-an
 ```text
 01-Data-Engineering/
 ├─ README.md # this file
-├─ Data-Preprocessing/
 │ ├─ notes.md
 │ ├─ resources.md
 │ └─ notebooks/
-├─ Business-Intelligence/
-├─ Big-Data-Analytics/
-└─ Packaging/
 ```
