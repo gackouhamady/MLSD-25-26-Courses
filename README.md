@@ -1,3 +1,57 @@
+<!-- Badges: Program, Institution, Domains, Objectives, Tech Stack, Trends -->
+<p align="center">
+  <img alt="MLSD" src="https://img.shields.io/badge/Master-MLSD%2025--26-1E88E5?style=for-the-badge&logo=googlescholar&logoColor=white">
+  <img alt="University" src="https://img.shields.io/badge/University-Your%20University-6f42c1?style=for-the-badge&logo=academia&logoColor=white">
+  <img alt="Location" src="https://img.shields.io/badge/Location-Paris%20(Europe%2FParis)-FF7043?style=for-the-badge&logo=googlemaps&logoColor=white">
+</p>
+
+<p align="center">
+  <img alt="Domain: Data Engineering" src="https://img.shields.io/badge/Domain-Data%20Engineering-1976D2?style=for-the-badge">
+  <img alt="Domain: Machine Learning" src="https://img.shields.io/badge/Domain-Machine%20Learning-388E3C?style=for-the-badge">
+  <img alt="Domain: Deep Learning" src="https://img.shields.io/badge/Domain-Deep%20Learning-512DA8?style=for-the-badge">
+  <img alt="Domain: NLP" src="https://img.shields.io/badge/Domain-NLP-00796B?style=for-the-badge">
+  <img alt="Domain: RL" src="https://img.shields.io/badge/Domain-RL-455A64?style=for-the-badge">
+  <img alt="Domain: Graph ML" src="https://img.shields.io/badge/Domain-Graph%20ML-5D4037?style=for-the-badge">
+  <img alt="Domain: Time Series" src="https://img.shields.io/badge/Domain-Time%20Series-1976D2?style=for-the-badge">
+</p>
+
+<p align="center">
+  <img alt="Objective: PhD (Academic)" src="https://img.shields.io/badge/Objective-PhD%20(Academic)-2E7D32?style=for-the-badge&logo=googlescholar&logoColor=white">
+  <img alt="Objective: CIFRE" src="https://img.shields.io/badge/Objective-CIFRE-0077B6?style=for-the-badge">
+  <img alt="Objective: R%26D" src="https://img.shields.io/badge/Objective-R%26D-1B5E20?style=for-the-badge">
+</p>
+
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img alt="Transformers" src="https://img.shields.io/badge/HF-Transformers-FFB000?style=for-the-badge&logo=huggingface&logoColor=black">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-FF9800?style=for-the-badge&logo=scikitlearn&logoColor=white">
+  <img alt="XGBoost" src="https://img.shields.io/badge/XGBoost-%20-0A66C2?style=for-the-badge">
+  <img alt="LightGBM" src="https://img.shields.io/badge/LightGBM-%20-00C853?style=for-the-badge">
+  <img alt="CatBoost" src="https://img.shields.io/badge/CatBoost-%20-212121?style=for-the-badge">
+  <img alt="Spark" src="https://img.shields.io/badge/Apache%20Spark-%20-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
+  <img alt="Kafka" src="https://img.shields.io/badge/Apache%20Kafka-%20-231F20?style=for-the-badge&logo=apachekafka&logoColor=white">
+  <img alt="Airflow" src="https://img.shields.io/badge/Apache%20Airflow-%20-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white">
+  <img alt="dbt" src="https://img.shields.io/badge/dbt-Core-FF694B?style=for-the-badge&logo=dbt&logoColor=white">
+  <img alt="Delta Lake" src="https://img.shields.io/badge/Delta%20Lake-%20-43A047?style=for-the-badge">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-%20-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-%20-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img alt="MLflow" src="https://img.shields.io/badge/MLflow-%20-0194E2?style=for-the-badge&logo=mlflow&logoColor=white">
+  <img alt="W&B" src="https://img.shields.io/badge/Weights%20%26%20Biases-%20-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black">
+  <img alt="DVC" src="https://img.shields.io/badge/DVC-%20-945DD6?style=for-the-badge&logo=dvc&logoColor=white">
+  <img alt="FAISS" src="https://img.shields.io/badge/FAISS-%20-263238?style=for-the-badge">
+  <img alt="PyG" src="https://img.shields.io/badge/PyTorch%20Geometric-%20-E91E63?style=for-the-badge">
+</p>
+
+<p align="center">
+  <img alt="Trend: RAG" src="https://img.shields.io/badge/Trend-RAG%20%F0%9F%94%AD-1565C0?style=for-the-badge">
+  <img alt="Trend: QLoRA" src="https://img.shields.io/badge/Trend-QLoRA%20%F0%9F%94%A5-9C27B0?style=for-the-badge">
+  <img alt="Trend: DPO" src="https://img.shields.io/badge/Trend-DPO-6A1B9A?style=for-the-badge">
+  <img alt="Trend: Graph%20Transformers" src="https://img.shields.io/badge/Trend-Graph%20Transformers-455A64?style=for-the-badge">
+  <img alt="Trend: UMAP" src="https://img.shields.io/badge/Trend-UMAP-00897B?style=for-the-badge">
+  <img alt="Trend: vLLM" src="https://img.shields.io/badge/Trend-vLLM-37474F?style=for-the-badge">
+</p>
+
 # MLSD 25–26 — Courses
 
 **Attendance is mandatory, including all PROJECT (PPD) sessions.**  
