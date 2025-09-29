@@ -1,4 +1,4 @@
-# 08 — Global Resources (MLSD 25–26)
+# Global Resources (MLSD 25–26)
 
 This folder is your **always-on toolkit**: math/stats/optimization foundations, production-grade Python stack, and curated books/papers/courses. Use it to **unblock quickly**, **go deeper fast**, and **ship with quality**.
 
