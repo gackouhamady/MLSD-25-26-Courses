@@ -233,3 +233,147 @@ Rooms used throughout: **Lavoisier A** and **Gley**.
 3. Keep PPD artifacts in `06-PROJET-MLSD/` (plan, deliverables, references).
 
 > **Disclaimer:** This README mirrors the plan you provided. If the school updates rooms, dates, or exam formats, reflect those changes here and in each UE’s `README.md`.
+
+# MLSD 25–26 — Program Goals by UE
+**Attendance is mandatory (including all PROJECT sessions).**  
+**Scope:** This document summarizes the **strategic goals** and **learning outcomes** for every UE (teaching unit) in the Master. It states what a top student should aim to **know, build, and prove** by the end of each unit, with **evidence** suitable for academic, CIFRE, or R&D paths.
+
+---
+
+## Program-wide outcomes (what every graduate can do)
+- **Design end-to-end ML systems**: data → modeling → evaluation → deployment, with **reproducibility** (seeds, configs, CI).
+- **Choose methods** based on data regime & constraints; articulate **trade-offs** (accuracy, latency, cost, risk).
+- **Evaluate properly**: leakage-safe splits, uncertainty (CIs, prediction intervals), and decision-oriented metrics.
+- **Communicate to stakeholders**: concise executive summaries, risk/impact narratives, and decision cards (*when to use what*).
+
+---
+
+## UE 01 — Data Engineering
+### Strategic objective (the “why”)
+Make you **production-ready** for building reliable **batch & streaming** data pipelines and analytics layers that power ML & BI.
+
+### Learning outcomes
+- Build **lakehouse pipelines** (Kafka/CDC → Spark/Beam → Delta/Iceberg/Hudi/Parquet) with **schema/contract** control.
+- Implement **data transformations** with dbt; enforce **data quality** (Great Expectations/Soda/Deequ) and **lineage** (OpenLineage/Marquez, DataHub).
+- Package & ship code professionally: **pyproject.toml**, **Docker** multi-stage, **CI/CD** (GitHub Actions), **pre-commit** gates, type safety.
+
+### Evidence of achievement
+- One **Dockerized stack** (`docker compose up`) that ingests → validates → models → serves to a BI artifact (Shiny/Quarto/Power BI/Tableau).
+- **Runbooks & contracts** (schemas, DQ checks), lineage views, and a **passing** CI pipeline.
+- Short **post-mortem** on failure scenarios (late/dirty data) with the mitigation plan.
+
+---
+
+## UE 02 — Unsupervised Learning
+### Strategic objective
+Turn unlabeled data into **structure and insight** with rigor (stability, diagnostics) and **actionable** outputs (segments, maps, top-N).
+
+### Learning outcomes
+- Build **unsupervised pipelines**: preprocessing → representation (PCA/UMAP/… ) → clustering/factorization → evaluation → reporting.
+- Choose and tune **K-Means/MBKMeans, GMM(EM), HDBSCAN/DBSCAN, Agglomerative, Spectral**; **NMF/SVD/ALS**, **Latent Block Models**.
+- Evaluate with **internal metrics** (Silhouette, CH, DB), **stability** (bootstrap/consensus), and **external** (ARI/NMI when available).
+- For recommendation: measure **Recall@K/MAP@K/NDCG@K** with **diversity** and **coverage**.
+
+### Evidence of achievement
+- Comparative study across **≥3 clustering families** on the **same embeddings** with **stability analysis**.
+- **Manifold diagnostics** (trustworthiness/continuity) + parameter decision card (t-SNE/UMAP).
+- Factorization/recsys experiment with **ranking metrics + error bars** and **diversity/coverage**.
+
+---
+
+## UE 03 — Supervised Learning, Reinforcement Learning & Time Series
+### Strategic objective
+Provide the **core toolkit** for applied AI: **reliable predictors**, **safe RL agents**, and **temporal models** with **business-ready** reporting.
+
+### Learning outcomes
+- **Supervised**: leakage-free pipelines; **calibrated** probabilities; **interpretability** (global/local); robust **HPO** (nested CV/Optuna).
+- **RL**: design agents (PPO/SAC etc.), **environment abstraction**, **offline/online evaluation**, basic **safety constraints**.
+- **Time series**: rolling **backtests**, hierarchical **reconciliation** (MinT), **probabilistic** forecasts (pinball loss), exogenous drivers.
+
+### Evidence of achievement
+- **Calibrated** tabular model with **threshold decision card** driven by business costs + SHAP report.
+- RL agent with **seed-averaged curves**, **OPE (IPS/DR)** + CIs, and a short **safety** note (constraints/violations).
+- Forecasting report with **rolling-origin** backtests, **prediction intervals**, and **reconciliation** improvements.
+
+---
+
+## UE 04 — Deep Learning & Graph Learning
+### Strategic objective
+Advance from “training models” to **engineering modern neural systems** (DL + Embeddings + GNNs) that **scale** and **generalize**—aligned with research (e.g., **Hybrid DialogueGCN**).
+
+### Learning outcomes
+- Implement and fine-tune **CNNs/RNNs/Transformers** with **mixed precision**, schedulers (One-Cycle/Cosine), regularization, and distributed training.
+- Build **embedding pipelines** (contrastive/metric; text/audio/image) and evaluate for **retrieval** & downstream transfer.
+- Design **GNNs** (GCN/GAT/GraphSAGE/R-GCN) and **Graph Transformers**, including **hetero/dynamic** graphs, with rigorous evaluation protocols.
+
+### Evidence of achievement
+- **Strong supervised baseline** (mean±CI over ≥5 seeds) with an **efficiency table** (latency, memory, throughput).
+- Embedding → **ANN serving** (FAISS/HNSW/IVF-PQ) with **Recall@K/MRR/nDCG** and latency P95.
+- Graph task (node/link/graph) with **leakage-safe** negatives, **Hits@K/MRR/AUC**, and **ablations** (oversmoothing fixes, temporal attention).
+
+---
+
+## UE 05 — NLP & Generative AI
+### Strategic objective
+Be able to **design, align, and serve** LLM-centric systems: **Prompting → RAG → PEFT (LoRA/QLoRA) → Alignment (DPO/RLHF)** with **guardrails** and solid evaluation.
+
+### Learning outcomes
+- Build **RAG** pipelines (chunking, retrieval, reranking), evaluate **EM/F1, nDCG**, and **hallucination** rates (ragas/TruLens).
+- Fine-tune via **PEFT** (QLoRA), compare **zero-shot vs. SFT vs. RAG+SFT**, and report **confidence intervals**.
+- Serve efficiently (vLLM/TGI), manage **quantization** and **prompt caching**; add **guardrails** for safety/format.
+
+### Evidence of achievement
+- API/demo: **RAG + PEFT** with **quality & latency** dashboards, guardrails enabled.
+- **Ablations** & **decision cards** (which retrieval/embedding/reranker under which constraints).
+
+---
+
+## UE 06 — Projet Professionnel (PPD & Soutenances)
+### Strategic objective
+Transform your skills into a **portfolio-grade project** with **clear impact**, **clean engineering**, and **scholarly rigor**—ready for **recruiters** and **PhD committees**.
+
+### Learning outcomes
+- Frame a problem → design a **credible method** → gather **evidence** (metrics, CIs, ablations) → deliver **decision-oriented** outputs (demo, report).
+- Manage the project like a professional: scope, milestones, risks, versioning, **reproducibility** (data/code), and **ethics**.
+
+### Evidence of achievement
+- **Repo** (tests, CI, seeds, configs) + **demo** (offline fallback).  
+- **Executive summary** (problem → method → evidence → decision → risks) and **soutenance** with anticipated Q&A.
+- If applicable: **tech report/poster** suitable for submission (workshop/demo).
+
+---
+
+## UE 07 — EXAMS-PREP (Past exams, revision sheets, oral prep)
+### Strategic objective
+Convert knowledge into **exam-ready mastery** and **confident orals** with **targeted drills** and **leakage-safe reasoning**.
+
+### Learning outcomes
+- Build **high-yield** sheets per UE (formulas, traps, minimal examples).  
+- Practice **exam-style problems** under time; maintain an **error log**; rehearse **10-10-10** orals (talk/Q&A/debrief).
+
+### Evidence of achievement
+- Folder with **worked past papers**, **one-pagers**, **oral decks/poster**, **decision cards**, **exam-day protocol**.
+
+---
+
+## UE 08 — RESOURCES-GLOBAL (Math/Stats/Optim, Python ML stack, reading list)
+### Strategic objective
+Maintain a curated **knowledge base** that accelerates learning and supports **rigorous reasoning** across all UEs.
+
+### Learning outcomes
+- Keep **math/stats/optim** refreshers at hand; track **libraries & tools**; curate **reading lists** (papers, talks, tutorials).
+- Document **patterns & anti-patterns** you reuse in projects/exams.
+
+### Evidence of achievement
+- Structured notes (definitions, lemmas you actually use), tiny **worked examples**, and **reference snippets** (code/CLI) you can paste into projects.
+
+---
+
+## Professional standards (applies to every UE)
+- **Reproducibility**: deterministic seeds, config files, environment lock, CI checks.  
+- **Honest evaluation**: leakage-safe splits; multiple seeds; **CIs**; reporting of **effect sizes**.  
+- **Risk & ethics**: data governance, safety constraints, fairness considerations where relevant.  
+- **Communication**: results **traceable** (tables/plots), **plain-language** summaries, and explicit **limitations**.
+
+> **Bottom line:** A top MLSD student can **design**, **justify**, **evaluate**, and **communicate** advanced ML systems—bridging research-grade rigor and production-grade engineering.
+
