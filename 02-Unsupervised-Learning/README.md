@@ -163,9 +163,5 @@ By the end of this UE, you will be able to:
 ├─ resources.md
 └─ notebooks/
 ```
-
-- Keep each module self-contained (data → code → report). Track experiments with clear config files and versioned outputs for reproducibility.
-
-
 ## Folder plan (this UE)
-
+- Keep each module self-contained (data → code → report). Track experiments with clear config files and versioned outputs for reproducibility.
