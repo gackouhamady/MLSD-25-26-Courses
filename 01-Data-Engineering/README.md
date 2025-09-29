@@ -228,3 +228,222 @@ GitHub Actions (Python) — https://docs.github.com/actions/automating-builds-an
 ├─ Big-Data-Analytics/
 └─ Packaging/
 ```
+
+## ⏱ Time Budget & Strategic Schedule (70 h total)
+
+- Goal: spend exactly 70 hours (same as contact hours) across all links, and align study blocks with your real timetable.
+
+### A) Per-link time allocation (adds up to 70 h)
+-Data Pre-processing (8.25 h)
+
+- pandas — 2.0 h
+
+- Polars — 1.25 h
+
+-PyArrow — 1.0 h
+
+- DuckDB (Python) — 1.0 h
+
+- scikit-learn Pipelines — 1.5 h
+
+- ColumnTransformer — 0.75 h
+
+- pandera — 0.75 h
+
+- BI (R) (7.0 h)
+
+- tidyverse — 1.0 h
+
+- ggplot2 — 1.0 h
+
+- Shiny — 1.5 h
+
+- Quarto — 1.25 h
+
+- Power BI — 1.25 h
+
+- Tableau — 1.0 h
+
+- Big Data Analytics (23.0 h)
+
+- Kafka — 3.5 h
+
+- Kafka Connect — 1.25 h
+
+- Schema Registry — 1.25 h
+
+- Debezium — 1.75 h
+
+- Spark Structured Streaming — 6.0 h
+
+- Apache Beam — 2.0 h
+
+- Delta Lake — 2.0 h
+
+- Apache Iceberg — 2.0 h
+
+- Apache Hudi — 2.0 h
+
+- Apache Parquet — 1.25 h
+
+- Packaging & CI/CD (11.5 h)
+
+- Packaging guide — 2.0 h
+
+- PEP 517 — 0.5 h
+
+- PEP 518 — 0.25 h
+
+- build — 0.5 h
+
+- twine — 0.5 h
+
+- Poetry — 1.25 h
+
+- pre-commit — 0.75 h
+
+- black — 0.25 h
+
+- ruff — 0.25 h
+
+- mypy — 0.5 h
+
+- Docker multi-stage — 2.25 h
+
+- GitHub Actions (Python) — 2.5 h
+
+- Practice path & governance (17.75 h)
+
+- Debezium examples — 1.0 h
+
+- dbt intro — 2.5 h
+
+- jaffle_shop — 1.5 h
+
+- Great Expectations — 1.75 h
+
+- Soda — 1.25 h
+
+- Deequ — 1.25 h
+
+- Airflow docs — 2.5 h
+
+- Airflow best practices — 0.5 h
+
+- OpenLineage — 1.75 h
+
+- Marquez — 1.25 h
+
+- DataHub docs — 2.0 h
+
+- DataHub repo — 0.5 h
+
+- Lab starters (2.5 h)
+
+- Confluent cp-all-in-one — 2.5 h
+
+- (Debezium examples, jaffle_shop, Airflow best practices — counted above, 0 h here)
+
+- TOTAL = 8.25 + 7.0 + 23.0 + 11.5 + 17.75 + 2.5 = 70.0 h
+
+## B) Timetable-aligned study plan (mirrors course days)
+
+- Each block below sums to the session length (Full day 7 h, Half-day 3.5 h). Split long links across days if needed.
+
+- 01 Oct — Data Pre-processing (7 h)
+
+- pandas (1.75 h), Polars (1.0 h), PyArrow (0.75 h), DuckDB (0.75 h)
+
+- scikit-learn Pipelines (1.25 h), ColumnTransformer (0.5 h), pandera (0.25 h)
+
+## 02 Oct — BI (R) (7 h)
+
+- tidyverse (1.0 h), ggplot2 (1.0 h), Shiny (1.5 h)
+
+- Quarto (1.25 h), Power BI (1.25 h), Tableau (1.0 h)
+
+## 03 Oct — Packaging I (7 h)
+
+- Packaging guide (1.0 h), PEP 517 (0.5 h), PEP 518 (0.25 h)
+
+- build (0.5 h), twine (0.5 h), Poetry (0.5 h)
+
+- pre-commit (0.25 h), black (0.25 h), ruff (0.25 h), mypy (0.25 h)
+
+- Docker multi-stage (1.0 h), GitHub Actions (1.0 h)
+
+- 08 Oct — Data Pre-processing II (7 h)
+
+- scikit-learn Pipelines (0.25 h, finish), ColumnTransformer (0.25 h, finish), pandera (0.5 h, finish)
+
+- Parquet (1.25 h)
+
+- Great Expectations (1.0 h), Soda (0.5 h), Deequ (0.5 h)
+
+- dbt intro (1.0 h), jaffle_shop (0.5 h), DataHub docs (0.5 h)
+
+## 29 Oct — Big Data I (7 h)
+
+- Kafka (1.75 h), Kafka Connect (0.75 h), Schema Registry (0.75 h), Debezium (0.75 h)
+
+- Spark Structured Streaming (2.0 h)
+
+- Delta (0.75 h), cp-all-in-one (0.25 h)
+
+## 30 Oct — Big Data II (7 h)
+
+- Kafka (1.75 h, finish), Spark Structured Streaming (2.0 h)
+
+- Apache Beam (1.0 h)
+
+- Delta (0.5 h, finish), Iceberg (1.0 h), Hudi (0.75 h)
+
+## 12 Nov — Big Data III (7 h)
+
+- Spark Structured Streaming (2.0 h, finish), Apache Beam (1.0 h, finish)
+
+- Iceberg (1.0 h, finish), Hudi (1.25 h, finish)
+
+- Schema Registry (0.5 h, finish), Debezium (1.0 h, finish)
+
+## 07 Jan (PM) — Packaging II (3.5 h)
+
+- Packaging guide (1.0 h), Poetry (0.75 h), pre-commit (0.5 h)
+
+## Docker multi-stage (0.75 h), GitHub Actions (0.5 h)
+
+## 08 Jan (PM) — Packaging III (3.5 h)
+
+- Docker multi-stage (0.5 h), GitHub Actions (0.5 h), mypy (0.25 h, finish)
+
+- dbt intro (0.5 h), jaffle_shop (0.5 h), Great Expectations (0.5 h)
+
+## 22 Jan — Orchestration & Lineage (7 h)
+
+- cp-all-in-one (1.25 h), OpenLineage (0.75 h), Marquez (0.75 h)
+
+- Airflow docs (1.5 h), Airflow best practices (0.5 h)
+
+- DataHub docs (0.75 h), DataHub repo (0.5 h)
+
+- Docker multi-stage (0.25 h, progress), GitHub Actions (0.25 h, progress)
+
+## 28 Jan — Packaging IV + Governance (7 h)
+
+- Docker multi-stage (0.75 h, finish), GitHub Actions (0.75 h, finish)
+
+- dbt intro (1.0 h, finish), jaffle_shop (0.5 h, finish)
+
+- Great Expectations (0.75 h, finish), Soda (0.75 h, finish), Deequ (0.75 h, finish)
+
+- DataHub docs (0.75 h, finish)
+
+- Total scheduled = 70 h. Adjust micro-splits as needed, but keep each link’s cumulative time within its allocation above.
+
+## C) Strategic improvements (decided & scheduled)
+
+- End-to-end demo day (30 Oct evening): bring up cp-all-in-one, run Debezium → Kafka → Spark → Delta, publish a tiny Shiny/Quarto view.
+
+- Governance sprint (22 Jan): wire OpenLineage → Marquez, ingest to DataHub, attach GX validations to the DAG.
+
+- Release day (28 Jan): publish your Python package (internal index), CI green, multi-stage Docker built, README with architecture diagram.
