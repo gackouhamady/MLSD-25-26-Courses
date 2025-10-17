@@ -377,3 +377,9 @@ Maintain a curated **knowledge base** that accelerates learning and supports **r
 
 > **Bottom line:** A top MLSD student can **design**, **justify**, **evaluate**, and **communicate** advanced ML systems—bridging research-grade rigor and production-grade engineering.
 
+
+
+
+
+## Date  des  projets  :  
+- Clustering  --->  retour du projet le  14/11/2025     | Clustering  --->  Examen avant  le 10/11 -
